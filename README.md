@@ -27,21 +27,6 @@ Bu proje, modern web teknolojileri ve büyük dil modelleri (LLM) kullanılarak 
 * **Stil:** [Tailwind CSS](https://tailwindcss.com/) & [Shadcn UI](https://ui.shadcn.com/)
 * **Kimlik Doğrulama:** [NextAuth.js](https://next-auth.js.org/)
 
-## 📂 Proje Yapısı
-
-```text
-AI_ChatBot/
-├── app/                 # Next.js App Router sayfaları ve API rotaları
-│   ├── api/chat/        # AI Streaming Endpoint
-│   └── page.tsx         # Ana sayfa
-├── components/          # UI Bileşenleri (Chat penceresi, Sidebar vb.)
-├── lib/                 # Yardımcı fonksiyonlar (Prisma client, Utils)
-├── prisma/              # Veritabanı şeması (schema.prisma)
-├── public/              # Statik dosyalar
-└── .env                 # Ortam değişkenleri (Gizli)
-
-
-
 
 ### 📦 2. Bağımlılıkları Yükleyin
 Projenin çalışması için gerekli olan paketleri indirmek için terminalde şu komutu çalıştırın:
@@ -62,5 +47,24 @@ GOOGLE_GENERATIVE_AI_API_KEY="AIzaSy_SENIN_API_ANAHTARIN..."
 # Terminalde `openssl rand -base64 32` komutu ile random bir key üretebilirsiniz.
 NEXTAUTH_SECRET="gizli-random-anahtar"
 NEXTAUTH_URL="http://localhost:3000"
+
+
+
+
+## 📂 Proje Yapısı
+
+```text
+AI_ChatBot/
+├── app/                 # Next.js App Router sayfaları ve API rotaları
+│   ├── api/chat/        # AI Streaming Endpoint
+│   └── page.tsx         # Ana sayfa
+├── components/          # UI Bileşenleri (Chat penceresi, Sidebar vb.)
+├── lib/                 # Yardımcı fonksiyonlar (Prisma client, Utils)
+├── prisma/              # Veritabanı şeması (schema.prisma)
+├── public/              # Statik dosyalar
+└── .env                 # Ortam değişkenleri (Gizli)
+
+
+
 
 
