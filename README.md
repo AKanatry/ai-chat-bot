@@ -113,5 +113,4 @@ npm run dev
 <<<<<<< HEAD
 <img width="357" height="1077" alt="Image" src="https://github.com/user-attachments/assets/eb4d1d62-b397-4938-bb26-d06cf7a6803c" /> 
 =======
-<img width="357" height="1077" alt="Image" src="https://github.com/user-attachments/assets/eb4d1d62-b397-4938-bb26-d06cf7a6803c" />   
->>>>>>> 1765f8372bfdb9503242c7a5e531e26c76a18999
+
